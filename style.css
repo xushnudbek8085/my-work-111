@@ -1,0 +1,39 @@
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px;
+    position: relative;
+   top: 200px;
+    z-index: -1;
+    align-items: center;
+    left: 200px;
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+    z-index:0 ;
+    left: 300px;
+   top: 100px;
+}  
+.box2{
+    width: 300px;
+    height: 200px;
+    background-color:yellow ;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    z-index: 1;
+    align-items: center;
+    left: 400px;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 8%, rgba(0,212,255,1) 100%);
+}
+
+
